@@ -151,7 +151,8 @@ color: #ffffff;
 
 .newsletter {
 
-
+    height:  120px;
+    text-align: center;
     background-color:#48BB78;
     color: #ffffff;
 }
@@ -220,4 +221,7 @@ height: 100%;
 padding: 5px 8px 0px 8px;
 
 }
+
+
+
 
