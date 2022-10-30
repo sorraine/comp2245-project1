@@ -15,6 +15,19 @@ header {
 
     font-size: 18px;
     background-color: #ffffff;
+    height: 75px;
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+    display:flex;
+}
+
+img {
+
+    height: 100px;
+    width: 100px;
+
+
 }
 
 nav a {
@@ -50,6 +63,26 @@ header li {
     align-items: center;
     background-color: #e2e8f0;
     clear: both;
+    height: 220px;
+    
+}
+
+
+.overview-hero-image {
+
+float: left;
+height: 150px;
+width: 150px;
+margin: 20px;
+
+}
+
+.overview-hero-image img{
+
+
+height: 150px;
+width: 150px;
+
 }
 
 
@@ -74,7 +107,16 @@ header li {
 
     background-color: #4A5568;
     color:#ffffff;
+    height: 300px;
+ margin-top: 125px;
 }
+
+.testing .btn {
+float: right;
+color: #ffffff;
+
+}
+
 
 .testing a { 
 
@@ -99,6 +141,10 @@ header li {
 
 .stories img {
 
+    height: 125px;
+    width: 125px;
+    float: left;
+    margin: 0px 10px 20px 0px;
     border-radius: 50%;
 }
 
@@ -131,5 +177,47 @@ footer {
 
 }
 
+.cards {
 
+height:  500px;
+display: grid;
+grid-template-columns: 32% 32% 32%;
+column-gap: 1%;
+
+}
+
+.card {
+
+display: flex;
+flex-direction: column;
+height: 100%;
+border: 1px solid #e2e8f0;
+border-radius: 5px;
+box-shadow: 1px 2px 2px 1px #e2e8f0;
+
+}
+
+.card img {
+
+display: block;
+height: 50%;
+width: 100%;
+
+}
+
+.card .card-body {
+
+width: 100%;
+height: 50%;
+padding: 5px 5px 0px 8px;
+
+
+}
+
+.card-body p {
+
+height: 100%;
+padding: 5px 8px 0px 8px;
+
+}
 
