@@ -9,3 +9,127 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+
+header {
+
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+nav a {
+
+        color: #6b7280;
+        
+}
+
+nav a:hover {
+
+
+    color: #5A67D8; 
+}
+
+header  h1 {
+
+    float: left;
+
+
+}
+
+header li {
+
+    display: inline;
+    float: right;
+
+}
+
+.overview-hero {
+
+
+    display: flex;
+    align-items: center;
+    background-color: #e2e8f0;
+    clear: both;
+}
+
+
+.learn-about h2 {
+
+    color: #48BB78;
+    font-size: 24px;
+
+}
+
+
+.learn-about h3 {
+
+    color: #48BB78;
+    font-size: 21px;
+
+
+}
+
+
+.testing { 
+
+    background-color: #4A5568;
+    color:#ffffff;
+}
+
+.testing a { 
+
+    background-color: #48BB78;
+    border-radius: 5px;
+
+
+}
+
+
+.stories h2,.stories a {
+
+    color: #5A67D8;
+
+}
+
+.stories h3 {
+
+    font-size: 18px;
+
+}
+
+.stories img {
+
+    border-radius: 50%;
+}
+
+
+.newsletter {
+
+
+    background-color:#48BB78;
+    color: #ffffff;
+}
+
+
+.newsletter .btn {
+
+    background-color: #5A67D8;
+}
+
+footer {
+
+
+    background-color: #4A5568;
+    color:#ffffff
+}
+
+.learn-about {
+
+
+    display: grid;
+    border-radius: 5px;
+
+}
+
+
+
