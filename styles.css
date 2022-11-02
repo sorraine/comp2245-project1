@@ -23,32 +23,15 @@ header {
     display:flex;
 }
 
-img {
 
-    height: 100px;
-    width: 100px;
-
-
+header .container {
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  
+    
 }
 
-nav li {
-
-    display: inline-block;
-    color: #6b7280; 
-}
-
-
-nav a {
-
-        color: #6b7280;
-        
-}
-
-nav a:hover {
-
-
-    color: #5A67D8; 
-}
 
 header  h1 {
 
@@ -64,6 +47,35 @@ header li {
     float: right;
 
 }
+
+img {
+
+    height: 100px;
+    width: 100px;
+
+
+}
+
+nav li {
+
+    display: inline-block;
+    color: #6b7280; 
+    padding: 4px;
+}
+
+
+nav a {
+
+        color: #6b7280;
+        
+}
+
+nav a:hover {
+
+
+    color: #5A67D8; 
+}
+
 
 .overview-hero {
 
@@ -95,20 +107,14 @@ width: 150px;
 }
 
 
-.learn-about h2 {
-
-    color: #48BB78;
-    font-size: 24px;
-
+.testing .container {
+    display: flex;
+    flex-direction:column;
 }
 
-
-.learn-about h3 {
-
-    color: #48BB78;
-    font-size: 21px;
-
-
+.testing-desciption {
+    padding-top: 70px;
+    width: 500px;
 }
 
 
@@ -172,12 +178,6 @@ color: #ffffff;
     background-color: #5A67D8;
 }
 
-footer {
-
-
-    background-color: #4A5568;
-    color:#ffffff
-}
 
 .learn-about {
 
@@ -187,17 +187,33 @@ footer {
 
 }
 
+.learn-about h2 {
+
+    color: #48BB78;
+    font-size: 24px;
+
+}
+
+
+.learn-about h3 {
+
+    color: #48BB78;
+    font-size: 21px;
+
+
+}
+
 .cards  {
 
 
 height:  570px;
 display:grid;
-grid-template-columns: 32% 32% 32%;
+grid-template-columns: 35% 35% 35%;
 column-gap: 2%;
 
 }
 
-.card :{
+.card {
 
 display: flex;
 flex-direction: column;
@@ -232,6 +248,20 @@ padding: 5px 8px 0px 8px;
 
 }
 
+
+.cta {
+    text-align: center;
+    margin: auto 0;
+}
+
+
+
+footer {
+
+
+    background-color: #4A5568;
+    color:#ffffff
+}
 
 
 
